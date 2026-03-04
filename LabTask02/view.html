@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <h1Login Form</h1>
+
+    <p id="count" style="color:blue;"></p>
+
+    <form onsubmit="return collectData();">
+      <table>
+        <tr>
+          <td>User Email</td>
+          <td><input type="text" id="email"></td>
+          <td><p id="emailErr" style="color:red;"></p></td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td><input type="password" id="password"></td>
+          <td><p id="passwordErr" style="color:red;"></p></td>
+        </tr>
+
+        <tr>
+          <td><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+    </form>
+
+  </body>
+</html>
